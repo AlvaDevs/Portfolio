@@ -34,6 +34,14 @@
           <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
         </div>
       </div>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="en">
+          <img src="assets/icons/gb.svg" alt="English" class="flags__img">
+        </div>
+        <div class="flags__item" data-language="es">
+          <img src="assets/icons/es.svg" alt="Spanish" class="flags__img">
+        </div>
+      </div>
       <div id="toggle-colors" class="colors">
         <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
         <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
@@ -51,7 +59,7 @@
           </div>
           <div class="card__header">
             <h2 class="card__title">AlvaDevs</h2>
-            <p class="card__subtitle">Front end developer</p>
+            <p class="card__subtitle" data-section="profile" data-value="rol">Front end developer</p>
           </div>
           <div class="card__body">
             <div class="card__link">
@@ -62,22 +70,22 @@
               <i class="fas fa-phone-alt icon"></i>
               <a href="tel:+573026654572">+57 3026654572</a>
             </div>
-            <p class="card__text">
+            <p class="card__text" data-section="profile" data-value="description">
               👨‍💻 Systems and Computing Engineering student || 💪 Proficient in C++ and Python|| 🔍 Exploring front end technologies like HTML, CSS, JavaScript, and soon diving into React || 🌟 Always seeking new challenges!
             </p>
           </div>
         </article>
         <!--? EDUCATION -->
         <article class="card card--education">
-          <h2 class="card__title margin--bottom">Education</h2>
+          <h2 class="card__title margin--bottom" data-section="education" data-value="education-title">Education</h2>
           <div class="education">
             <img src="assets/images/UTB-Logo.png" alt="logo UTB" class="education__image">
             <div class="education__info">
-              <p class="education__time">
+              <p class="education__time" data-section="education" data-value="first-education-dates">
                 Aug 2022 - Current
               </p>
-              <h3 class="education__degree ">Systems and Computer Engineer</h3>
-              <p class="education__description">
+              <h3 class="education__degree" data-section="education" data-value="first-education-title">Systems and Computer Engineer</h3>
+              <p class="education__description" data-section="education" data-value="first-education-description">
                 Graduate profile: <br>
 You will succeed in developing capabilities to identify, formulate, and solve complex engineering problems by applying engineering, science, and mathematical principles. You will apply engineering design to produce solutions that satisfy specific needs with consideration of public health, safety and welfare, as well as global, cultural, social, environmental and economic factors.
               </p>
@@ -95,7 +103,7 @@ You will succeed in developing capabilities to identify, formulate, and solve co
           <div class="skills">
             <div class="skills__header">
               <span class="skills__start-level">0</span>
-              <span class="skills__start-level">4</span>
+              <span class="skills__start-level">3</span>
             </div>
             <div class="skills__item">
               <p class="skills__tech">HTML</p>
@@ -103,15 +111,15 @@ You will succeed in developing capabilities to identify, formulate, and solve co
             </div>
             <div class="skills__item">
               <p class="skills__tech">CSS</p>
-              <div class="skills__bar skills__bar--90"></div>
+              <div class="skills__bar skills__bar--80"></div>
             </div>
             <div class="skills__item">
               <p class="skills__tech">JavaScript</p>
-              <div class="skills__bar skills__bar--60"></div>
+              <div class="skills__bar skills__bar--50"></div>
             </div>
             <div class="skills__item">
               <p class="skills__tech">PHP</p>
-              <div class="skills__bar skills__bar--30"></div>
+              <div class="skills__bar skills__bar--20"></div>
             </div>
             <div class="skills__item">
               <p class="skills__tech">React</p>
@@ -124,11 +132,11 @@ You will succeed in developing capabilities to identify, formulate, and solve co
           <div class="skills">
             <div class="skills__header">
               <span class="skills__start-level">0</span>
-              <span class="skills__start-level">4</span>
+              <span class="skills__start-level">3</span>
             </div>
             <div class="skills__item">
               <p class="skills__tech">Figma</p>
-              <div class="skills__bar skills__bar--30"></div>
+              <div class="skills__bar skills__bar--20"></div>
             </div>
             <div class="skills__item">
               <p class="skills__tech">Lightroom</p>
@@ -156,7 +164,7 @@ You will succeed in developing capabilities to identify, formulate, and solve co
         <!--? PROJECT -->
         <article class="card card--project">
           <div class="card__img-container">
-            <img src="assets/images/project-cafe.jpg" alt="Blog de Café" class="card__image">
+            <img src="assets/images/project-cafe.png" alt="Blog de Café" class="card__image animation--img">
           </div>
           <div class="project">
             <div class="project__tags">
@@ -164,10 +172,10 @@ You will succeed in developing capabilities to identify, formulate, and solve co
               <span class="project__tag">#CSS</span>
             </div>
             <h2 class="card__title">Blog de Café</h2>
-            <p class="card__text">My project, 'Blog de Café,' is a dynamic and visually appealing website created for coffee enthusiasts and connoisseurs. It features multiple pages including about us, blog entries, contact information, and courses offered, each designed to provide a rich user experience on various devices through responsive design.<br> Through this project, I enhanced my front-end development skills in HTML and CSS, familiarized myself with Modernizr in JavaScript for feature detection, and learned to manage web resources effectively, equipping me to build more accessible and engaging websites.</p>
+            <p class="card__text">My project, 'Blog de Café,' is a dynamic and visually appealing website created for coffee enthusiasts and connoisseurs. It features multiple pages including about us, blog entries, contact information, and courses offered, each designed to provide a rich user experience on various devices through responsive design.<br>Through this project, I enhanced my front-end development skills in HTML and CSS, familiarized myself with Modernizr in JavaScript for feature detection, and learned to manage web resources effectively, equipping me to build more accessible and engaging websites.</br>
             <div class="buttons">
-              <a href="#" class="button button--primary">Demo</a>
-              <a href="#" class="button button--ghost">Code</a>
+              <a href="https://blog-de-cafe-alva.netlify.app" class="button button--primary">Demo</a>
+              <a href="https://github.com/AlvaDevs/Blog-de-cafe" class="button button--ghost">Code</a>
             </div>
           </div>
         </article>

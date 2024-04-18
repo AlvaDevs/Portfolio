@@ -1,0 +1,12 @@
+{
+    "profile": {
+        "rol": "Desarrollador front end",
+        "description": "👨‍💻 Estudiante de Ingeniería Informática y de Sistemas || 💪 Dominio de C++ y Python|| 🔍 Explorando tecnologías front-end como HTML, CSS, JavaScript, y pronto sumergiéndome en React || 🌟 ¡Siempre buscando nuevos retos!"
+    },
+    "education": {
+        "education-title": "Educación",
+        "first-education-title": "Ingeniero de sistemas y computación",
+        "first-education-dates": "Ago 2022 - Actualidad",
+        "first-education-description": "Perfil del egresado \nLograrás desarrollar capacidades para identificar, formular y resolver problemas complejos de ingeniería, aplicando principios de ingeniería, ciencias y matemáticas. Aplicarás el diseño de ingeniería para producir soluciones que satisfagan necesidades específicas con consideración de salud pública, seguridad y bienestar, así como factores globales, culturales, sociales, ambientales y económicos."
+    }
+}
