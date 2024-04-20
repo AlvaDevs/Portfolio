@@ -24,7 +24,6 @@ const changeLanguage = async language => {
 
 flagsElement.addEventListener('click', (e) => changeLanguage(e.target.parentElement.dataset.language));
 
-
 //Theme listener
 toggleTheme.addEventListener('click', () => {
     document.body.classList.toggle('dark');

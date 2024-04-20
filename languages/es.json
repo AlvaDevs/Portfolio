@@ -8,5 +8,9 @@
         "first-education-title": "Ingeniero de sistemas y computación",
         "first-education-dates": "Ago 2022 - Actualidad",
         "first-education-description": "Perfil del egresado \nLograrás desarrollar capacidades para identificar, formular y resolver problemas complejos de ingeniería, aplicando principios de ingeniería, ciencias y matemáticas. Aplicarás el diseño de ingeniería para producir soluciones que satisfagan necesidades específicas con consideración de salud pública, seguridad y bienestar, así como factores globales, culturales, sociales, ambientales y económicos."
+    },
+    "project": {
+        "first-project-title": "Blog de Café",
+        "first-project-description": "Mi proyecto, 'Blog de Café', es un sitio web dinámico y visualmente atractivo creado para los entusiastas y conocedores del café. Cuenta con múltiples páginas, incluyendo acerca de nosotros, entradas de blog, información de contacto y cursos ofrecidos, cada una diseñada para proporcionar una rica experiencia de usuario en diversos dispositivos a través de un diseño adaptable. \nA través de este proyecto, mejoré mis habilidades de desarrollo front-end en HTML y CSS, me familiaricé con Modernizr en JavaScript para la detección de características y aprendí a gestionar recursos web de manera efectiva, lo que me equipa para construir sitios web más accesibles y atractivos."
     }
 }

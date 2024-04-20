@@ -8,5 +8,9 @@
         "first-education-title": "Systems and Computer Engineer",
         "first-education-dates": "Aug 2022 - Current",
         "first-education-description": "Graduate profile: \nYou will succeed in developing capabilities to identify, formulate, and solve complex engineering problems by applying engineering, science, and mathematical principles. You will apply engineering design to produce solutions that satisfy specific needs with consideration of public health, safety and welfare, as well as global, cultural, social, environmental and economic factors."
+    },
+    "project": {
+        "first-project-title": "Blog de Café",
+        "first-project-description": "My project, 'Blog de Café,' is a dynamic and visually appealing website created for coffee enthusiasts and connoisseurs. It features multiple pages including about us, blog entries, contact information, and courses offered, each designed to provide a rich user experience on various devices through responsive design. \nThrough this project, I enhanced my front-end development skills in HTML and CSS, familiarized myself with Modernizr in JavaScript for feature detection, and learned to manage web resources effectively, equipping me to build more accessible and engaging websites."
     }
 }
